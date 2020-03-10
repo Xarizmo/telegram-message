@@ -1,23 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="tg-message">
+          <div className="foto"></div>
+          <div className="cloud">
+            <div className="cloud-name">Mikhail Polikarpov</div>
+            <div className="cloud-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In facere, fuga, quidem
+              maiores nostrum, fugiat rerum ad culpa sed voluptatum velit provident aliquid quos nesciunt libero optio
+              voluptatibus corporis ea!
+            </div>
+            <div className="cloud-time">22:22</div>
+          </div>
+        </div>
       </header>
     </div>
   );
